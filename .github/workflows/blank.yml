@@ -25,8 +25,8 @@ jobs:
       - name: Organization mirror
         uses: Yikun/hub-mirror-action@master
         with:
-          src: github/Hello-gitee
-          dst: gitee/Hello-gitee
+          src: github/zhuoqiw
+          dst: gitee/zhuoqiw
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
           dst_token: ${{ secrets.GITEE_TOKEN }}
           account_type: org
